@@ -4,12 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace number1000
+namespace number10869
 {
-    /// <summary>
-    ///  백준 A+B 문제
-    ///  link :https://www.acmicpc.net/problem/1000
-    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -18,8 +14,11 @@ namespace number1000
             string[] s = str.Split();
             int number1 = Int32.Parse(s[0]);
             int number2 = Int32.Parse(s[1]);
-            Console.WriteLine(number1+number2);
-           
+            Console.WriteLine(number1 + number2);
+            Console.WriteLine(number1 - number2);
+            Console.WriteLine(number1 * number2);
+            Console.WriteLine(number1 / number2);
+            Console.WriteLine(number1 % number2);
         }
     }
 }
